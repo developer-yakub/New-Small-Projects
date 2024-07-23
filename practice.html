@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -63,17 +63,43 @@ position:relative;
 bottom:250px;
 left:250px;
 }
+#navlist{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 2 rem;
+  justify-content: space-evenly;
+  height: 100px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.nav-list-item{
+text-decoration: none;
+color: #53736A;
+
+}
+
 </style>
 </head>
 <body>
-  
- <div class="diva"></div>
+<nav >
+  <ul id="navlist">
+    <li><h1>Mohammad Yakub Pasha</h1></li>
+    <li><h1><a href="" class="nav-list-item">Projects</a></h1></li>
+    <li><h1> <a href="" class="nav-list-item">Resume</a> </h1></li>
+    <li><h1><a href="" class="nav-list-item">Hire</a></h1></li>
+  </ul>
+</nav>
+
+
+
+ 
+
+<div class="diva"></div>
  <div class="divb"></div>
  <div class="divc"></div>
  <div class="divd"></div>
  <div class="dive"></div>
- 
-
-
-
-</body>
+ </body>
