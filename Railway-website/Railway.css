@@ -1,0 +1,594 @@
+body{
+  width:1440px;
+  height:1050px;
+}
+.logo-parent{
+  width:166px;
+  height:80px;
+  position: absolute;
+  top:50px;
+  left:100px;
+  display:flex;
+  gap:15px;
+}
+.logo{
+  width:80px;
+  height:80px;
+
+}
+.logo-2{
+  width:80px;
+  height:80px;
+}
+.login-box{
+  width:317px;
+  height:81px;
+  position:absolute;
+  top:50px;
+  left:393px;
+}
+.AskContactAlerts{
+  display:grid ;
+  grid-template-columns:repeat(3,1fr);
+  gap:25px;
+  color:#333333;
+  font-size: 15px;
+  position: relative;
+  left: 50px;
+}
+.login-buttons{
+  width:317px;
+  height:36px;
+  position: relative;
+  top:25px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+#login{
+  width:70px;
+  height:38px;
+  border:none;
+  border-radius:5px;
+  color:white;
+  background-color:#FB792B;
+
+}
+#register{
+  width:90px;
+  height:38px;
+  border:1px solid #33333333;
+  border-radius: 5px;
+  color:black;
+  background-color:#FFFFFF;
+  
+}
+#Agentlogin{
+  width:117px;
+  height:38px;
+  border:1px solid #33333333;
+  background-color:#FFFFFF ;
+  color:black;
+}
+.IndianRailways-ParentBox{
+  width:432px;
+  height:117px;
+  position:absolute;
+  top:220px;
+  left:100px;
+}
+#Big-Text-India{
+  height:58px;
+  width:365px;
+  font-size:48px;
+  color:#333333;
+  font-weight: bold;
+}
+.SafetySecurityPunctuality{
+height:39px;
+width:432px;
+font-weight:500;
+font-size:32px;
+position: relative;
+top:20px;
+display:grid;
+grid-template-columns: repeat(3,1fr);
+}
+#Safety{
+  color:#01BB0A;
+  font-size:32px;
+}
+#Security{
+  color:#FB792B;
+  font-size:32px;
+}
+#Punctuality{
+  color:#333333;
+  font-size:32px;
+}
+.OtherLogo-Parent{
+  height:50px;
+  width:193.89px;
+  position:absolute;
+  top:224px;
+  left:516px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.otherlogo-1{
+  width:80px;
+  height:50px;
+}
+.otherlogo-2{
+  width:93.89px;
+  height:50px;
+}
+.SubNutton{
+  width:595px;
+  height:44px;
+  position:relative;
+  top:417px;
+  left:100px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:10px;
+
+}
+#BookTicket{
+  width:176px;
+  height:44px;
+  border-radius:5px;
+  background-color:#213D77;
+  color:white;
+  font-size:18px;
+}
+.BookTicketLogo{
+  width:24px;
+  height:24px;
+  position:relative;
+  right:10px;
+  top:5px;
+}
+#PnrStatus{
+  width:163px;
+  height:44px;
+  border-radius:5px;
+  padding:10px 15px 10px 15px;
+  background-color:#FFFFFF;
+  font-size:18px;
+  color:#333333;
+  border:1px solid #33333380;
+}
+#Charts{
+  width:218px;
+  height:44px;
+  border-radius:5px;
+  padding:10px 15px 10px 15px;
+  background-color:#FFFFFF;
+  border:1px solid #33333380;
+  font-size:18px;
+  color:#333333;
+}
+.TickImage{
+  width:24px;
+  height:24px;
+  position: relative;
+  top:1px;
+  right:13px;
+  font-weight: bold;
+}
+.span-pnr{
+  position: relative;
+  bottom:5px;
+}
+.chart-image{
+  width:24px;
+  height:24px;
+  position:relative;
+  right:15px;
+}
+.span-charts{
+  position: relative;
+  bottom:5px;
+}
+.From-to-ParentBox{
+  border:1px solid #333333;
+  width:610px;
+  height:115px;
+  position:absolute;
+  top:511px;
+  left:100px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.middle-line-upper{
+  border:1px solid #333333;
+  transform:rotate(90deg);
+  width:30px;
+  position: relative;
+  top:15px;
+  left:291px;
+}
+.circle{
+  border:1px solid #333333;
+  height:50px;
+  width:50px;
+  border-radius:50%;
+  position:relative;
+  top:28px;
+  left:282px;
+}
+.middle-line-lower{
+  border:1px solid #333333;
+  transform:rotate(90deg);
+  width:33px;
+  position: relative;
+  top:45px;
+  left:291px;
+}
+.arrow-box{
+  height:25px;
+  width:25px;position:relative;
+  left:11px;
+  top:11px;
+}
+.arrow-child{
+  height:25px;
+  width:25px;
+  margin: 0px;
+  padding:0px;
+  color:#333333;
+  position: relative;
+  bottom:5px;
+  left:5px;
+  font-size:25px;
+}
+.Right-arrow{
+position: relative;
+right:1px;
+color:#333333;
+}
+.left-arrow{
+position: relative;
+bottom:18px;
+right:5px;
+color:#333333;
+}
+.span-from{
+  position: relative;
+  bottom:50px;
+  left:60px;
+  color:#333333;
+}
+.down-symbool{
+  position: relative;
+  bottom:3px;
+  color:#333333;
+}
+.span-Ahmedabad{
+  font-weight:bold;
+  font-size:25px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position:relative;
+  bottom:20px;
+  left:5px;
+}
+.JN-ADI{
+  position:relative;
+  top:5px;
+  right:150px;
+  color:#333333;
+}
+.boarding-img{
+  width:32px;
+  height:32px;
+  margin:0;
+  padding:0;
+  position:relative;
+  left:10px;
+  bottom:10px;
+}
+.Right-side-child-1A{
+  position:relative;
+  bottom:32px;
+  right:10px;
+}
+.right-side-parent-box{
+  position:relative;
+  left:30px;
+}
+.left-side-parent-box{
+  position: relative;
+  bottom:122px;
+  right:30px;
+  left:275px;
+  width:305px;
+  height:115px;
+}
+.span-to{
+  position: relative;
+  left:100px;
+  top:17px;
+  color:#333333;
+}
+.downarrow-2{
+color:#333333;
+position: relative;
+bottom:3px;
+}
+.span-delhi{
+  font-size:25px;
+  font-weight:bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position:relative;
+  top:45px;
+  left:65px;
+}
+.DLI-NEW-DELHI{
+  position:relative;
+  top:68px;
+  right:20px;
+}
+.Deboarding{
+  width:32px;
+  height:32px;
+  position:relative;
+  top:50px;
+  left:70px;
+}
+.left-side-child-1{
+  position:relative;
+  bottom:10px;
+  right:10px;
+}
+.Date-class-seat-type-parent-box{
+  border:1px solid #333333;
+  width:610px;
+  height:115px;
+  position:relative;
+ bottom:100px;
+}
+.first-partition{
+  border:1px solid #333333;
+  transform:rotate(90deg);
+  width:114px;
+  position: relative;
+  top:56px;
+  left:150px;
+}
+.second-partition{
+  border:1px solid #333333;
+  transform:rotate(90deg);
+  width:114px;
+  position: relative;
+  top:56px;
+  left:350px;
+}
+.First-box{
+position: relative;
+bottom:10px;
+}
+.date{
+  color:#333333;
+  position: relative;
+  top:5px;
+  left:55px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.firstbox-arrow{
+  position:relative;
+  bottom:3px;
+  color:#333333;
+}
+
+.Aug{
+  position:relative;
+  font-size:25px;
+  top:35px;
+  left:5px;
+  font-weight:bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Tuesday{
+  color:#333333;
+  position:relative;
+  top:55px;
+  right:130px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.calender{
+  width:32px;
+  height:32px;
+  position:relative;
+  top:43px;
+  right:230px;
+}
+.second-box{
+  height:115px;
+  width:195px;
+  position:relative;
+  left:210px;
+  bottom:52px;
+}
+.class{
+  color:#333333;
+  position:relative;
+  top:22px;
+  left:70px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.second-box-arrow{
+  position:relative;
+  bottom:3px;
+}
+.Three-a{
+  font-weight:bold;
+  font-size:25px;
+  margin:0;
+  padding:0;
+  position: relative;
+  top:50px;
+  left:20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Ac-tier{
+  color:#333333;
+  position:relative;
+  top:70px;
+  right:18px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.circle-second-box{
+  width:32px;
+  height:32px;
+  position:relative;
+  top:20px;
+  left:20px;
+}
+.TATKAL-parent-box{
+  position:relative;
+  bottom:157px;
+  left:408px;
+  height:115px;
+  width:200px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.arrow-3-thirdpart{
+  position:relative;
+  bottom:3px;
+}
+.Ac-3-tier-3box{
+position: relative;
+top:28px;
+left:63px;
+}
+.seat-type{
+position: relative;
+left:65px;
+top:12px;
+}
+.Tatkal{
+  font-size:25px;
+  position:relative;
+  top:42px;
+  right:25px;
+  font-weight:bold;
+}
+.squares{
+  width:32px;
+  height:32px;
+  position:relative;
+  right:50px;
+  top:10px;
+}
+.Other-Options{
+  width:613px;
+  height:93px;
+  background-color:#F8F8F8;
+  position: relative;
+  bottom:80px;
+}
+input[type="checkbox"]{
+  appearance:none;
+  -webkit-appearance:none;
+  height:20px;
+  width:20px;
+  background-color:#ffffff;
+  border-radius:50px;
+  cursor:pointer;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  outline:none;
+}
+input[type="checkbox"]:after{
+  font-family:"Font Awesome 5 Free";
+  font-weight:900;
+  font-size:10px;
+  color:white;
+  content:"\f00c";
+  display:none;
+}
+input[type="checkbox"]:hover{
+  background-color:#5a5858;
+}
+input[type="checkbox"]:checked{
+  background-color:green;
+}
+input[type="checkbox"]:checked:after{
+  display: block;
+}
+.person-Disabled{
+color: #213D77;
+position: relative;
+left:30px;
+bottom:25px;
+}
+.Person-with{
+  position: relative;
+  top:20px;
+  left:30px;
+}
+.Train-text{
+  color:#213D77;
+  position: relative;
+  left:60px;
+  bottom:15px;
+}
+.checkbox-2{
+  position: relative;
+  left:30px;
+  top:7px;
+}
+.Flexible-content{
+  position: relative;
+  left:30px;
+  bottom:23px;
+}
+.Flexible-parent{
+  position: relative;
+  left:350px;
+  bottom:70px;
+}
+.Railway-content{
+  position: relative;
+  left:30px;
+  bottom:23px;
+}
+.railway-parent{
+  position: relative;
+  left:300px;
+  bottom:82px;
+}
+.Search-Train{
+  width:610px;
+  height:80px;
+  color:#ffffff;
+  font-weight:bold;
+  background-color: #01BB0A;
+  font-size:25px;
+}
+.Train-image{
+  width:710px;
+  height:520px;
+  position: relative;
+  left:735px;
+  bottom:53px;
+  margin:0;
+  padding:0;
+}
+.train-2{
+  width:710px;
+  height:520px;
+  position:relative;
+  top:570px;
+  left:743px;
+  margin:0;
+  padding:0;
+}
+.Train-2{
+  width:710px;
+  height:520px;
+  position: relative;
+  top:467px;
+  left:21px;
+}
