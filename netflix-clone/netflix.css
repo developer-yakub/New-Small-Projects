@@ -1,0 +1,439 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.section-1 {
+  position: relative;
+  height: 75vh;
+  width: 100vw;
+  background-image: url("Assets/images/background-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+.img-filter {
+  position: absolute;
+  height: 75vh;
+  width: 100vw;
+  background-color: black;
+  opacity: 0.44;
+  z-index: 2;
+}
+
+nav {
+  position: relative;
+  top: 10px;
+  left: 13%;
+  z-index: 3;
+  height: 5vh;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.logo {
+  width: 148px;
+}
+
+.button-nav {
+  display: flex;
+  align-items: center;
+}
+
+.lang-btn {
+  width: 122px;
+  height: 22px;
+  background-color: rgb(23, 23, 23, 0.9);
+  border: 2px solid #5e5e5e;
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.language-svg img {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+
+.arrow-dwn-head {
+  position: relative;
+  bottom: 3px;
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+.sgn-btn {
+  border-radius: 3px;
+  width: 76.61px;
+  height: 32px;
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 10px;
+  cursor: pointer;
+  margin-left: 20px;
+  font-weight: 900;
+  font-size: calc(20px - 9.999px);
+}
+
+select {
+  appearance: none;
+  background-color: #101010;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  text-align: left;
+  margin-left: 8px;
+}
+.section-1-cnt {
+  position: relative;
+  top: 30px;
+  height: 65vh;
+  width: 100vw;
+  z-index: 3;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.h1-sect-1 {
+  position: relative;
+  bottom: 70px;
+  font-size: 48px;
+}
+.sectn-h1-dwn {
+  position: relative;
+  bottom: 60px;
+  left: 200px;
+  font-size: 24px;
+}
+.h1-dwn-dwn-para {
+  position: relative;
+  bottom: 40px;
+  left: 95px;
+  font-size: 20px;
+}
+.section-2-child {
+  position: relative;
+  bottom: 20px;
+}
+.email-sectn-1-in {
+  position: relative;
+  top: 7px;
+  width: 320px;
+  height: 20px;
+  background-color: rgb(23, 23, 23, 0.09);
+  padding: 24px 16px 8px;
+  border: 1px solid #646260;
+  color: white;
+  font-size: large;
+  border-radius: 8px;
+}
+.sectn-1getstrtd {
+  width: 170px;
+  height: 56px;
+  background-color: red;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 20px;
+}
+.sec {
+  position: relative;
+  height: 557.5px;
+  width: 100vw;
+  background-color: black;
+  color: white;
+}
+.sep {
+  height: 2vh;
+  width: 100vw;
+  background-color: #232323;
+}
+
+.section-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.s2-vdo {
+  position: relative;
+  bottom: 385px;
+  left: 80px;
+}
+
+.tv-s2-img {
+  position: relative;
+  z-index: 1;
+}
+
+.sec-2img-vdo {
+  position: relative;
+  top: 100px;
+  left: 180px;
+}
+
+.sec-cont {
+  position: relative;
+  bottom: 50px;
+  left: 140px;
+}
+
+.H1-s2 {
+  font-size: 55px;
+}
+
+.P-s2 {
+  font-size: larger;
+  position: relative;
+  top: 15px;
+}
+
+.section-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.s3-black-box {
+  position: relative;
+  bottom: 130px;
+  left: 127px;
+  height: 100px;
+  width: 280px;
+  background-color: black;
+  border-radius: 10px;
+  border: 2.45px solid #5a5a5a;
+}
+
+.Mobile-img-s3 {
+  height: 400px;
+}
+
+.s3-image {
+  position: relative;
+  right: 100px;
+  top: 10px;
+}
+
+.blk-img-og {
+  width: 64px;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.blk-cnt {
+  position: relative;
+  left: 10px;
+  bottom: 8px;
+}
+
+.blk-cnt-1 {
+  position: relative;
+  bottom: 58px;
+  left: 82px;
+}
+.blk-cnt-2 {
+  position: relative;
+  bottom: 55px;
+  left: 82px;
+  color: #0171eb;
+}
+
+.s3-vdo-blk {
+  width: 65px;
+  position: relative;
+  left: 215px;
+  bottom: 95px;
+}
+
+.s3-h1 {
+  font-size: 50px;
+}
+
+.s3-p {
+  font-size: 25px;
+}
+.section-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.s4-vdo {
+  position: relative;
+  bottom: 350px;
+  left: 240px;
+  width: 405px;
+}
+
+.s4-img {
+  position: relative;
+  z-index: 2;
+  top: 100px;
+  left: 120px;
+}
+
+.s4-cnt-img-vdo {
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+
+.sec4-cnt {
+  position: relative;
+  left: 100px;
+  bottom: 45px;
+}
+
+.s4-h1 {
+  font-size: 50px;
+}
+
+.s4-p {
+  font-size: 30px;
+}
+
+.s5-h1 {
+  font-size: 50px;
+}
+
+.s6-h1-p {
+  position: relative;
+  left: 34%;
+  top: 20px;
+}
+
+.s5-p1 {
+  font-size: 30px;
+  position: relative;
+  top: 10px;
+}
+
+.section-5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-6 {
+  position: relative;
+  height: 900px;
+}
+
+.s6-ques {
+  position: relative;
+  top: 20px;
+  left: 140px;
+}
+
+.s6-h1 {
+  font-size: 50px;
+}
+
+.s6 {
+  color: white;
+  font-size: 27px;
+  width: 80vw;
+  height: 5vh;
+  background-color: #2d2d2d;
+  margin: 20px;
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.s6:hover {
+  background-color: #605f5f;
+  cursor: pointer;
+}
+
+.s6last {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.s6lst {
+  margin: 10px;
+  position: relative;
+  top: 20px;
+}
+
+.s6last-p {
+  font-size: 30px;
+}
+.s6lstbtns-int {
+  margin: 5px;
+}
+
+.s6-intpt-email {
+  width: 320px;
+  height: 20px;
+  background-color: rgb(23, 23, 23, 0.09);
+  padding: 24px 16px 20px 10px;
+  border: 1px solid #646260;
+  color: white;
+  font-size: large;
+  border-radius: 8px;
+}
+
+.s6last-btn {
+  width: 170px;
+  height: 56px;
+  background-color: red;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 20px;
+}
+
+.s6-gt {
+  position: relative;
+  left: 5px;
+  bottom: 1px;
+  font-size: 20px;
+}
+
+.s6-big-child {
+  position: relative;
+  top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: white;
+}
+
+.section-7 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fa {
+  font-size: 20px;
+  margin: 30px;
+}
