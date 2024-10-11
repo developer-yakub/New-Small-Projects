@@ -1,0 +1,265 @@
+.invert {
+  filter: invert(1);
+}
+
+#minicircle {
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  z-index: 9999;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  width: 100%;
+  background-color: #000000;
+}
+
+#homepage {
+  position: relative;
+  color: white;
+  width: 100%;
+  height: 100vh;
+  background-color: #000000;
+}
+
+#nav {
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#nav * {
+  color: #ffffff;
+}
+
+#nav a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#heading {
+  margin-top: 90px;
+}
+
+#heading h1 {
+  opacity: 0.7;
+  margin-left: 30px;
+  line-height: 1;
+  font-size: 10vw;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+#heading #secondh1 {
+  margin-left: 230px;
+}
+
+.blocktext {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: fit-content;
+}
+
+.blocktext h5 {
+  text-transform: uppercase;
+  font-size: 15px;
+  text-align: right;
+}
+
+#minorheading {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-top: 100px;
+  padding-right: 50px;
+}
+
+#minorheading h5 {
+  text-transform: uppercase;
+  margin-top: 0.5vw;
+  font-size: 1vw;
+  text-align: right;
+}
+
+#homefooter {
+  padding: 0 2vw;
+  width: 100%;
+  position: absolute;
+  bottom: 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+#iconset {
+  display: flex;
+  gap: 8px;
+}
+
+#homefooter .circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #888;
+}
+
+.second {
+  padding-right: 10vw;
+  padding-top: 200px;
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  color: #ffffff;
+}
+
+.elements {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 3.5vw 3vw;
+  border-top: 1px solid #888;
+  padding-right: 0;
+}
+
+.elements h1 {
+  text-transform: uppercase;
+  font-size: 7.6vw;
+  opacity: 0.7;
+}
+
+.elemlast {
+  border-bottom: 1px solid #888;
+}
+
+.elements img {
+  height: 140%;
+  position: absolute;
+  z-index: 999;
+  opacity: 0;
+  transition: opacity ease;
+}
+
+#about {
+  width: 100%;
+  padding: 10vw 5vw;
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding-left: 40vw;
+}
+
+#textabout {
+  width: 25rem;
+}
+
+#textabout h5 {
+  text-transform: uppercase;
+  opacity: 0.6;
+  margin-bottom: 10px;
+}
+
+#textabout p {
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+#about img {
+  width: 200px;
+}
+
+#textabout a {
+  padding: 12px 22px;
+  border: 1px solid #fff;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+#subscribe {
+  color: #ffffff;
+  padding: 20px 30px;
+  padding-bottom: 7vw;
+  background-color: black;
+}
+
+#subscribe h5 {
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+#subscribe h3 {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+#footer {
+  background-color: #000000;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 30px;
+}
+
+#footerleft {
+  display: flex;
+  gap: 20px;
+}
+
+#footer a {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#footerright {
+  display: flex;
+  gap: 30px;
+}
+
+.bounding {
+  width: fit-content;
+  overflow: hidden;
+}
+
+.bounding .boundingElement {
+  transform: translateY(100%);
+}
+
+#heading h1 {
+  font-family: "Qwitcher Grypen", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
