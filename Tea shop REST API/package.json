@@ -1,0 +1,18 @@
+{
+  "name": "teamanager",
+  "version": "1.0.0",
+  "description": "this is an app which delivers and manages the tea orders",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "tea"
+  ],
+  "author": "syed Yakub Pasha Ali",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
